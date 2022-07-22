@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000;
+  height: 59px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 24px;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 52px;
+  }
+
+  .header-title {
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: 16px;
+  }
+}
