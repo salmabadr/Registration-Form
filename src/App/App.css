@@ -10,11 +10,11 @@ body {
 }
 
 body {
+  letter-spacing: 0;
   font-size: 18px;
   font-weight: normal;
-  line-height: 1.5;
-  font-family: "Arial", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", sans-serif;
+  font-family: "ArialMT", "Arial", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
 }
 
 #root {

@@ -1,9 +1,11 @@
+.validation-section {
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
 .rightCheckMark,
 .wrongCheckMark {
   font-family: "ZapfDingbatsITC";
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 24px;
 }
 
 .rightCheckMark::before {

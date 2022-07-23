@@ -1,15 +1,14 @@
 import React from "react";
 import "./ValidationCheck.css";
 
-function ValidationCheck({ validationFunc, enteredPass, validationMsg }) {
-  const check = validationFunc(enteredPass);
+function ValidationCheck({ isValid, validationMsg }) {
+  const checkMarkClass = isValid ? "rightCheckMark" : "wrongCheckMark";
 
   return (
-    <article>
+    <article className="validation-section">
       {
         <React.Fragment>
-          <span className={check ? "rightCheckMark" : "wrongCheckMark"} />{" "}
-          {validationMsg}
+          <span className={checkMarkClass} /> {validationMsg}
         </React.Fragment>
       }
     </article>
