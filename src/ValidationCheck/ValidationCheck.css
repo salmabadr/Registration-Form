@@ -1,0 +1,17 @@
+.rightCheckMark,
+.wrongCheckMark {
+  font-family: "ZapfDingbatsITC";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.rightCheckMark::before {
+  content: "✔︎";
+  color: #009e2d;
+}
+
+.wrongCheckMark::before {
+  content: "✘";
+  color: #9e0000;
+}
