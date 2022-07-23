@@ -21,3 +21,24 @@ export const validationsList = [
       passText.match(/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/) !== null,
   },
 ];
+
+export const handleKeyRight = (event, passwordRef) => {
+  if (event.key === "ArrowRight") {
+    passwordRef.current.focus();
+    event.preventDefault();
+  }
+};
+
+export const handleKeyLeft = (event, emailRef) => {
+  if (event.key === "ArrowLeft") {
+    emailRef.current.focus();
+    event.preventDefault();
+  }
+};
+
+export const handleKeyEnter = (event, buttonRef) => {
+  if (event.key.toLowerCase() === "enter") {
+    buttonRef.current.focus();
+    event.preventDefault();
+  }
+};
