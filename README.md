@@ -31,7 +31,7 @@ Navigate to the project directory, and Run:
 
 It should open automatically in your default browser,
 
-In case it didn't, Open http://localhost:3000 to view it in the browser.
+In case it didn't, Open http://localhost:3000 to view it in the browser.
 
 To excute the tests, Run:
 
